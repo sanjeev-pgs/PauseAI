@@ -1,0 +1,31 @@
+# Flutter and Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android local configuration
+android/local.properties
+android/key.properties
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Private notification data and caches
+notification.txt
+virustotal_cache.json
+
+# IDE files
+.vscode/
+.idea/
